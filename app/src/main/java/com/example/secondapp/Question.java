@@ -20,7 +20,7 @@ public class Question {
         return titleQuestion;
     }
 
-    public boolean isAnswer() {
+    public boolean getAnswer() {
         return answer;
     }
 

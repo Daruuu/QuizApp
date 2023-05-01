@@ -4,5 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="my_green_button">#13D89C</color>
     <color name="my_red_button">#E51E2D</color>
-    <color name="background_color">#b39BD8</color>
+    <color name="background_color_activity">#b39BD8</color>
 </resources>
