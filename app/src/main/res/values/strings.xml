@@ -6,4 +6,5 @@
     <string name="correct_toast">Correct</string>
     <string name="incorrect_toast">Incorrect!</string>
     <string name="finish_quiz_message">The total points you have scored are</string>
+    <string name="restart_quiz_message">Restart Quiz</string>
 </resources>

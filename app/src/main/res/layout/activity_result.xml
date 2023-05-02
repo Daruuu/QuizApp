@@ -2,17 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color_activity"
+    android:background="@color/white"
     android:gravity="center"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView01"
+        android:id="@+id/TextViewFinishQuiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center_horizontal"
-        android:text="@string/question_text"
+        android:text="@string/finish_quiz_message"
         android:textColor="@color/black" />
 
     <LinearLayout
@@ -22,21 +22,12 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/true_button"
+            android:id="@+id/restart_game_button"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginEnd="10dp"
-            android:text="@string/true_button" />
-
-        <Button
-            android:id="@+id/false_button"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginStart="20dp"
-            android:text="@string/false_button" />
-
+            android:text="@string/restart_quiz_message" />
     </LinearLayout>
 
 </LinearLayout>
