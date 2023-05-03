@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
             checkQuestion(false);
         });
         updateQuestion();
+//        moveToResultScreen();
     }
 
     void fillQuestionsWithData() {
@@ -86,10 +87,11 @@ public class MainActivity extends AppCompatActivity {
         } else {
             showToastAtBottom(R.string.incorrect_toast);
         }
-//        if (currentQuestionIndex == questionList.size()) {
-//            totalPointsScore = 0;
-//            currentQuestionIndex = 0;
-//        }
+        if (currentQuestionIndex == questionList.size()-1) {
+            moveToResultScreen();
+            totalPointsScore = 0;
+            currentQuestionIndex = 0;
+        }
         updateQuestion();
     }
 
@@ -106,6 +108,5 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("score", totalPointsScore);
         startActivity(intent);
         //pasar informacion hacia el nuevo layout
-
     }
 }

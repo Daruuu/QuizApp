@@ -12,7 +12,6 @@ public class ResultActivity extends AppCompatActivity {
     TextView textViewFinishQuiz;
     Button buttonRestart;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
